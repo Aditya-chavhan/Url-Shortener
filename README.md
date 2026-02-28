@@ -29,7 +29,7 @@ This project demonstrates **REST API design, database integration, unique ID gen
 
 ## 📁 Project Structure
 
-url-shortener/
+url-shortener
 
 │
 
@@ -37,19 +37,19 @@ url-shortener/
 
 │
 
-├── src/main/java/com/urlshortener/
+├── src/main/java/com/urlshortener
 
 │ ├── UrlShortenerApplication.java
 
 │ │
 
-│ ├── controller/
+│ ├── controller
 
 │ │ └── UrlController.java
 
 │ │
 
-│ ├── service/
+│ ├── service
 
 │ │ ├── UrlService.java
 
@@ -57,28 +57,27 @@ url-shortener/
 
 │ │
 
-│ ├── repository/
+│ ├── repository
 
 │ │ └── UrlRepository.java
 
 │ │
 
-│ ├── model/
+│ ├── model
 
 │ │ └── Url.java
 
 │ │
 
-│ └── util/
+│ └── util
 
 │ └── Base62Encoder.java
 
 │
 
-└── src/main/resources/
+└── src/main/resources
 
 └── application.properties
-
 
 ---
 
